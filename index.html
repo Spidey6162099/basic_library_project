@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <dialog class="user_input">
+        <form method="dialog" class="user_input_form">
+            <label for="book_name">Book Name:</label>
+            <input type="text" id="book_name" name="book_name">
+            <label for="author_name">Author Name</label>
+            <input type="text" id="author_name" name="author_name">
+            <label for="read_status">Read?</label>
+            <input type="checkbox" id="read_status" name="read_status">
+
+            <button type="submit" class="save_btn">save</button>
+            
+            
+        </form>
+    </dialog>
+    <!-- <div class="body_container"> -->
+        <div class="header">House of Knowledge</div>
+        <div class="container">
+            <div class="container_card" data-book_name="Lord of The Rings">
+
+                <img src="https://www.councilofelrond.com/wp-content/uploads/modules/My_eGallery/gallery/covers/books/NenyaGoldFotRBookCoverCoE.jpg" alt="">
+                <div class="text_material">
+                <div class="book_name">Lord of The Rings</div>
+                <div class="author_name">-JRR Tolkien</div>
+                </div>   
+                <div class="icons">
+                    <div class="read_group">
+                    <input type="checkbox" id="read" name="read">
+                    <label for="read">Read?</label>
+                    </div>
+                    <button class="remove" data-book_name="Lord of The Rings"><img src="img/icons8-remove-128.png" alt=""></button>
+
+                </div>  
+            </div>
+            <div class="container_card" data-book_name="Chronicles of Narnia">
+
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/The_Chronicles_of_Narnia_box_set_cover.jpg/220px-The_Chronicles_of_Narnia_box_set_cover.jpg" alt="">
+                <div class="text_material">
+                <div class="book_name">Chronicles of Narnia</div>
+                <div class="author_name">-CS Lewis</div>
+                </div>
+                <div class="icons">
+                    <div class="read_group">
+                    <input type="checkbox" id="read" name="read">
+                    <label for="read">Read?</label>
+                    </div>
+                    <button class="remove" data-book_name="Chronicles of Narnia"><img src="img/icons8-remove-128.png" alt=""></button>
+
+                </div>     
+            </div>
+            <div class="container_card" data-book_name="Don Quixote">
+
+                <img src="https://image.isu.pub/230819020715-b22a22d231a0b297d224e52d5026cc20/jpg/page_1.jpg" alt="">
+                <div class="text_material">
+                <div class="book_name">Don Quixote</div>
+                <div class="author_name">-Miguel Cervantes</div>
+                </div>
+                <div class="icons">
+                    <div class="read_group">
+                    <input type="checkbox" id="read" name="read">
+                    <label for="read">Read?</label>
+                    </div>
+                    <button class="remove" data-book_name="Don Quixote"><img src="img/icons8-remove-128.png" alt=""></button>
+
+                </div>      
+            </div>
+            <div class="add_card">
+
+                <button></button>
+                <div class="text_material">Add</div>    
+            </div>
+
+            
+        </div>
+        
+    <!-- </div>     -->
+</body>
+</html>
